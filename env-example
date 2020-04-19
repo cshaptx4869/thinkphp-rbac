@@ -1,0 +1,36 @@
+[app]
+debug = true
+trace = false
+host = http://rbac.nannanqiaonan.cn/
+name = rbac权限管理
+
+[database]
+hostname = mysql
+database = rbac
+username = root
+password =
+hostport = 3306
+
+[redis]
+host = redis
+port = 6379
+password =
+
+[sms]
+account = 
+password = 
+
+[email]
+username = 
+password = 
+host = smtp.163.com
+port = 25
+debug = 0
+from_address = 
+from_name = 
+reply_address = 
+reply_name = 
+
+[weixin]
+mini_appid = 
+mini_app_sercret = 
