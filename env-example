@@ -1,14 +1,14 @@
 [app]
 debug = true
 trace = false
-host = http://rbac.nannanqiaonan.cn/
+host = http://rbac.test/
 name = rbac权限管理
 
 [database]
-hostname = mysql
+hostname = 127.0.0.1
 database = rbac
 username = root
-password =
+password = root
 hostport = 3306
 
 [redis]
@@ -17,20 +17,20 @@ port = 6379
 password =
 
 [sms]
-account = 
-password = 
+account =
+password =
 
 [email]
-username = 
-password = 
+username =
+password =
 host = smtp.163.com
 port = 25
 debug = 0
-from_address = 
-from_name = 
-reply_address = 
-reply_name = 
+from_address =
+from_name =
+reply_address =
+reply_name =
 
 [weixin]
-mini_appid = 
-mini_app_sercret = 
+mini_appid =
+mini_app_sercret =
