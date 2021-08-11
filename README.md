@@ -14,6 +14,8 @@ RBAC原理和实现详见：https://www.cnblogs.com/cshaptx4869/p/12461972.html
 
 导入根目录下的 `rabc.sql` 文件，复制 `env-example` 文件为 `.env` 文件，并配置 `database` 项参数。
 
+初始账号 zombie 密码 123456。
+
 **前端：**
 
 前端基于 `vue + element-ui` 实现，下载地址：https://github.com/cshaptx4869/vue-cli2-init 的 `dev` 分支。
